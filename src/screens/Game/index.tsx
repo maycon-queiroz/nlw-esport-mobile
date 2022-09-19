@@ -88,7 +88,7 @@ export function Game() {
         />
         <DuoMatch
           visible={discordDuoSelected.length > 0}
-          discord="Maycon#212"
+          discord={discordDuoSelected}
           onClose={() => setDiscordDuoSelected('')}
         />
       </SafeAreaView>
